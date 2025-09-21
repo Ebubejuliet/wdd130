@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
-    background-color: darkblue;
+background-color: darkblue;
     padding: 10px;
 }
 nav a {
@@ -13,7 +18,7 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1x solid black;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -39,7 +44,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1x solid black;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 
@@ -51,4 +56,12 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* class selector */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px;
+    background-color: #eee;
+    color: #000;
 }
