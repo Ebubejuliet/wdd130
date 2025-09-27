@@ -19,7 +19,7 @@ body {
     padding: 0;
 }
 header, main, footer {
-    width: 840px;
+    width: 800px;
     margin: 0 auto;
 }
 h1, h2 {
@@ -52,9 +52,10 @@ h1 {
     color: #fff;
 }
 article {
-    margin: 16px;
-    padding: 8px;
-    line-height: 1.5;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
 }
 .hero article img {
     float: right;
@@ -63,31 +64,49 @@ article {
 /* New layout styles for rafting site */
 .main-content {
     background: #fff;
-    max-width: 900px;
+    width: 100px;
     margin: 30px auto;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
+    position: absolute;
 }
 
 header {
     color: #fff;
-    padding: 8px;
+    width: 880px;
+    margin: 0;
+    text-align: 0;
 }
 
 nav a {
-    margin: 16px;
+    margin: 0;
+    text-align: left;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
 }
 
 .banner {
-    position: relative;
-    width: 840px;
-    height: 250px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+
     
 }
 .banner img {
-    width: 840px;
-    height: 250px;
+    width: 100%;
+    height: 400px;
     object-fit: cover;
     display: block;
 }
@@ -100,37 +119,54 @@ nav a {
     color: #fff;
     font-size: 1em;
     padding: 10px 0;
+    background-color: #1a347a;
+    font-size: 24px;
+    line-height: 1.2;
+    max-height: 3.6;
+    overflow: hidden;
 }
 
 .info-box {
-    margin: 20px;
-    padding: 16px;
-    background: #f4f4f4;
-    border-radius: 8px;
-    overflow: auto;
+    background: #1a347a;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+    align-items: center;
+}
+.info-box img {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    object-fit: contain;
+    padding: 1px;
+    
+}
+.info-box p {
+    width: 60%;
+    word-wrap: break-word;
+    font-size: 16px;
+    text-align: center;
 }
 
-.section-title {
-    background: #1a347a;
-    color: #fff;
-    padding: 10px;
-    margin: 20px 0 10px 0;
-    text-align: center;
-    border-radius: 6px;
-}
 
 footer {
     background: #fff;
     text-align: center;
-    padding: 10px 0;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     font-size: 0.9em;
     color: #333;
+    text-align: left;
+    position: relative;
+    top: 20px;
 }
 
 footer img, footer svg {
-    height: 24px;
-    margin: 0 5px;
+    height: 50px;
+    margin: 5px;
     vertical-align: middle;
+    text-align: left;
 }
