@@ -64,43 +64,44 @@ article {
 /* New layout styles for rafting site */
 .main-content {
     background: #fff;
-    width: 100px;
-    margin: 30px auto;
-    border-radius: 12px;
+    max-width: 800px;
+    margin: 0 auto;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    padding: 0 0 20px 0;
-    position: absolute;
+    padding: 20px;
+    
 }
 
 header {
     color: #fff;
-    width: 880px;
-    margin: 0;
-    text-align: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    display: flex;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 nav a {
-    margin: 0;
-    text-align: left;
-    padding: 5px 10px;
+    color: #fff;
     text-decoration: none;
-    border-radius: 4px;
 }
 nav ul li {
-    margin: 0 15px;
+    margin-right: 20px;
 }
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: block;
+    display: flex;
 }
 
 .banner {
     position: absolute;
-    width: 100%;
-    bottom: 0;
-    top: 0;
 
     
 }
@@ -108,41 +109,41 @@ nav ul {
     width: 100%;
     height: 400px;
     object-fit: cover;
-    display: block;
 }
 .banner-text {
     position: absolute;
-    top: 30px;
-    left: 0;
+    top: 50%;
+    left: 50%;
     width: 100%;
     text-align: center;
     color: #fff;
-    font-size: 1em;
-    padding: 10px 0;
     background-color: #1a347a;
+    font-size: 36px;
+    transform: translate(-50%, -50%);
+}
+.section-title {
+    margin-bottom: 10px;
     font-size: 24px;
-    line-height: 1.2;
-    max-height: 3.6;
-    overflow: hidden;
+    font-weight: bold;
 }
 
 .info-box {
     background: #1a347a;
-    justify-content: space-between;
+    flex-direction: row;
     color: #fff;
-    position: relative;
+    display: flex;
     align-items: center;
+    padding: 20px;
 }
 .info-box img {
-    width: 30%;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    height: auto;
-    object-fit: contain;
-    padding: 1px;
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
     
+}
+section {
+    padding: 20px;
 }
 .info-box p {
     width: 60%;
@@ -155,18 +156,13 @@ nav ul {
 footer {
     background: #fff;
     text-align: center;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    font-size: 0.9em;
-    color: #333;
-    text-align: left;
-    position: relative;
-    top: 20px;
+    padding: 20px;
+    background-color: #333;
 }
 
 footer img, footer svg {
-    height: 50px;
-    margin: 5px;
-    vertical-align: middle;
-    text-align: left;
+    height: 30px;
+    margin: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
