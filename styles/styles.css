@@ -1,10 +1,16 @@
-
+:root {
+    --heading-background-color: #fff;
+    --heading-text-color: #333;
+    --heading-font-color: "montserrat", Helvertica, sans-sarif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1)
+}
 nav {
 background-color: darkblue;
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: var(--heading-background-color);
     display: block;
     padding: 20px;
 }
@@ -26,9 +32,9 @@ main {
 }
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--padding);
     border: 1px solid rgb(0 0 0 / 0.2); /* 1️⃣ */
-    padding: 1rem;
+    padding: var(--padding);
     background-color: #eee;
     color: #333;
     text-align: center;
