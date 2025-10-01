@@ -48,7 +48,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: darkblue;
     color: #fff;
 }
 article {
@@ -66,15 +66,6 @@ article {
     float: left; 
     max-width: 900px;   
 }
-
-.banner-text {
-    background-color: darkblue;
-    color: #fff;
-    position: absolute;
-    top: 290px;
-    left: 340px;
-    height: 25px;
-}
 .info-box {
     position: relative;
     top: 200px;
@@ -89,7 +80,7 @@ article {
     height: 100px;
     background-color: darkblue;
 }
-.section-title {
+h2 {
     background-color: darkblue;
     text-align: center;
     color: white;
