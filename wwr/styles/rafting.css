@@ -73,6 +73,7 @@ article {
     position: absolute;
     top: 290px;
     left: 340px;
+    height: 25px;
 }
 .info-box {
     position: relative;
@@ -92,17 +93,17 @@ article {
     background-color: darkblue;
     text-align: center;
     color: white;
-    height: 20px;
+    height: 25px;
 }
 
 footer {
     background: #fff;
-    text-align: left;
-    padding: 20px;
+    position: absolute;
+    padding: 10px;
 }
 
 footer img, footer svg {
-    height: 30px;
-    margin: 30px;
-    margin-top: 10px;
+    height: 60px;
+    margin-bottom: 80px;
+    margin-top: 0;
 }
