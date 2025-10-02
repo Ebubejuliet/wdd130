@@ -51,14 +51,10 @@ h1 {
     background-color: darkblue;
     color: #fff;
 }
-article {
-    top: 70%;
-    left: 50%;
-    position: absolute;
-}
 .hero article img {
     float: right;
     width: 125px;
+    height: 100px;
 }
 /* New layout styles for rafting site */
 .main-content {
@@ -66,19 +62,12 @@ article {
     float: left; 
     max-width: 900px;   
 }
-.info-box {
-    position: relative;
-    top: 200px;
-    right: 670px; 
+article {
+    position: relative; 
     color: white;
     background-color: darkblue;
-    height: 100px;
-}
-.info-box img {
-    position: absolute;
-    left: 600px;
-    height: 100px;
-    background-color: darkblue;
+    height: 120px;
+    top: -150px;
 }
 h2 {
     background-color: darkblue;
