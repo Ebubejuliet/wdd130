@@ -63,11 +63,11 @@ h1 {
     max-width: 900px;   
 }
 article {
-    position: relative; 
+    position: absolute; 
     color: white;
     background-color: darkblue;
     height: 120px;
-    top: -150px;
+    top: 400px;
 }
 h2 {
     background-color: darkblue;
