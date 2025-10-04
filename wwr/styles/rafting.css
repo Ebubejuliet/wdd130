@@ -57,11 +57,6 @@ h1 {
     height: 100px;
 }
 /* New layout styles for rafting site */
-.main-content {
-    margin: 0;
-    float: left; 
-    max-width: 900px;   
-}
 article {
     position: absolute; 
     color: white;
