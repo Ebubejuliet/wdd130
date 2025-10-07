@@ -57,6 +57,12 @@ h1 {
     height: 100px;
 }
 /* New layout styles for rafting site */
+.main content {
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    text-align: left;
+}
 article {
     position: absolute; 
     color: white;
@@ -75,14 +81,52 @@ footer {
     position: absolute;
     padding: 10px;
 }
+header {
+    display: grid;
+    grid-template-columns: auto auto;
 
+}
+header img {
+    grid-column: 1/2;
+}
 footer img, footer svg {
     height: 60px;
     margin-right: 10px;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     top: 6px;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-column: 2/3;
+    margin: 60px 0;
+    gap: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .history img {
-    float: left;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+}
+.adventure img {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
 }
