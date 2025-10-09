@@ -91,10 +91,7 @@ header img {
     grid-column: 2/3;
 }
 footer img, footer svg {
-    height: 40px;
-    position: absolute;
-    top: 1550px;
-    margin-right: 10px;
+    height: 50px;
 }
 nav {
     display: flex;
