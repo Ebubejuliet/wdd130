@@ -81,6 +81,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     grid-column: 2/3;
+    padding: 110px;
 }
 header {
     display: grid;
@@ -91,7 +92,10 @@ header img {
     grid-column: 2/3;
 }
 footer img, footer svg {
-    height: 50px;
+    height: 40px;
+    position: relative;
+    top: -50px;
+    gap: 80px;
 }
 nav {
     display: flex;
@@ -141,7 +145,7 @@ nav ul li {
     grid-column: span 5;
 }
 .adventure img {
-    height: 80px;
+    height: 80px; 
     display: flex;
     flex-direction: column;
     grid-row: 1/2;
@@ -150,4 +154,75 @@ nav ul li {
     display: grid;
     grid-template-rows: auto auto;
     
+}
+.trip {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 30px;
+}
+.trip figure {
+    display: grid;
+}
+.trip img {
+    height: 95px;
+    width: 100px;
+    position: absolute;
+    margin-right: 20px;
+    padding: 5px;
+    left: 410px;
+
+    
+} 
+.trip figcaption {
+    height: 100px;
+    width: 150px;
+    grid-column: 1/2;
+}
+.li {
+    align-content: center;
+    float: right;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 160px;
+    left: 520px;
+}
+
+caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+thead,
+tfoot {
+    background-color: rgb(228 240 245);
+}
+
+thead th {
+    background-color: #000;
+    color: #fff;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    font-size: 0.8rem;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: center;
+    font-size: x-large;
 }
