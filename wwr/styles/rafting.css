@@ -155,13 +155,33 @@ nav ul li {
     grid-template-rows: auto auto;
     
 }
+.trips {
+    display: grid;
+    grid-template-rows: auto auto;
+}
 .trip {
     display: grid;
     grid-template-rows: auto auto auto;
-    padding: 30px;
+    padding: 2px;
 }
 .trip figure {
     display: grid;
+}
+.trips img {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 370px;
+}
+.trips figcaption {
+    grid-column: 1/2;
+    width: 350px;
+    gap: 29px;
+    margin-bottom: 20px;
+
+
+
+
 }
 .trip img {
     height: 95px;
@@ -172,6 +192,10 @@ nav ul li {
     left: 410px;
 
     
+}
+.trip p {
+    background-color: darkblue;
+    color: #fff;
 } 
 .trip figcaption {
     height: 100px;
@@ -189,7 +213,7 @@ table {
     font-size: 1rem;
     letter-spacing: 1px;
     position: absolute;
-    top: 160px;
+    top: 190px;
     left: 520px;
 }
 
@@ -198,7 +222,7 @@ caption {
     padding: 10px;
     font-weight: 700;
     font-style: italic;
-    font-weight: bolder;
+    color: #fff;
 }
 
 thead,
