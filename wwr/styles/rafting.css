@@ -41,6 +41,13 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
+.hero p {
+    position: absolute;
+    background-color: darkblue;
+    color: #fff;
+    top: 350px;
+
+}
 h1 {
     position: absolute;
     top: 20px;
@@ -171,17 +178,13 @@ nav ul li {
     height: 100px;
     width: 150px;
     position: absolute;
-    left: 370px;
+    left: 598px;
 }
 .trips figcaption {
     grid-column: 1/2;
     width: 350px;
     gap: 29px;
     margin-bottom: 20px;
-
-
-
-
 }
 .trip img {
     height: 95px;
@@ -197,6 +200,12 @@ nav ul li {
     background-color: darkblue;
     color: #fff;
 } 
+.link {
+    position: absolute;
+    left: 700px;
+    top: 1000px;
+    font-size: x-large;
+}
 .trip figcaption {
     height: 100px;
     width: 150px;
@@ -249,4 +258,66 @@ td:last-of-type {
 tfoot th {
     text-align: center;
     font-size: x-large;
+}
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  position: absolute;
+  left: 600px;
+  top: 200px;
+}
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+.block {
+  display: grid;
+  align-items: center;
+  position: absolute;
+  left: 300px;
+  top: 550px;
+
+
+}
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 900px;
+  left: 950px;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
 }
