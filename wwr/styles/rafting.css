@@ -159,12 +159,7 @@ nav ul li {
 }
 .adventure figure {
     display: grid;
-    grid-template-rows: auto auto;
-    
-}
-.trips {
-    display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto auto auto;
 }
 .trip {
     display: grid;
@@ -174,31 +169,23 @@ nav ul li {
 .trip figure {
     display: grid;
 }
-.trips img {
-    height: 100px;
-    width: 150px;
-    position: absolute;
-    left: 598px;
-}
-.trips figcaption {
-    grid-column: 1/2;
-    width: 350px;
-    gap: 29px;
-    margin-bottom: 20px;
-}
 .trip img {
     height: 95px;
     width: 100px;
-    position: absolute;
     margin-right: 20px;
-    padding: 5px;
-    left: 410px;
-
-    
+    padding: 5px; 
+}
+.trip h1 {
+    position: absolute;
+    top: 80px;
+    background-color: #fff;
+    color: darkblue;
+    right: 10px;
 }
 .trip p {
     background-color: darkblue;
     color: #fff;
+
 } 
 .link {
     position: absolute;
@@ -259,65 +246,54 @@ tfoot th {
     text-align: center;
     font-size: x-large;
 }
-fieldset {
-  display: grid;
-  grid-gap: .5rem;
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2);
-  padding: 1rem;
-  position: absolute;
-  left: 600px;
-  top: 200px;
-}
-form {
-  width: 650px;
-  margin: 0 auto;
-  padding: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.1);
-  border-radius: 0.5rem;
-  background-color: #eee;
-  display: grid;
-}
-.block {
-  display: grid;
-  align-items: center;
-  position: absolute;
-  left: 300px;
-  top: 550px;
-
-
-}
-button {
-  margin: 1rem;
-  background-color: navy;
-  color: #fff;
-  border: none;
-  border-radius: .5rem;
-  padding: .75rem;
-  font-size: 1.2rem;
-  position: absolute;
-  top: 900px;
-  left: 950px;
-}
-
-button:hover {
-  background-color: darkgreen;
-}
-legend {
-  padding: 0.5rem;
-  color: navy;
-  font-size: 1.3em;
-}
-label {
-  text-align: right;
-  padding-right: 1rem;
-}
-input, select, textarea {
-  padding: 0.5rem;
-  font-size: 1.1rem;
-}
 input[type="checkbox"] {
   width: 22px;
   height: 22px;
   vertical-align: bottom;
+}
+.Example p {
+    padding: 0.1px;
+}
+.Example form {
+    float: right;
+    
+}
+.block2 {
+    height: 30px;
+}
+.message legend {
+    float: left;
+}
+legend {
+    position: relative;
+    right: 70px;
+    width: 10px;
+    font-size: large;
+}
+.message {
+    position: relative;
+    top: 300px;
+}
+.type {
+    height: 40px;
+}
+button {
+    color: #fff;
+    background-color: darkblue;
+    height: 30px;
+    position: absolute;
+    right: 350px;
+}
+.Example h1 {
+    position: relative;
+    top: 10px;
+    background-color: #fff;
+    color: black;
+    font-size: 6rem ;
+}
+.Example p {
+    position: relative;
+    left: 200px;
+    font-size: x-large;
+    color: black;
 }
